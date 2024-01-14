@@ -7,4 +7,9 @@ module.exports = defineConfig({
     },
     baseUrl: "https://pushing-it.vercel.app/",
   },
+
+  env: {
+    usuario: "pushingit",
+    password: "123456!",
+  },
 });

@@ -10,12 +10,12 @@ export class LogInPage {
     cy.xpath(this.dblClickLogIn).dblclick();
   }
 
-  escribirUsuario(data) {
-    cy.xpath(this.userInput).type(data.logIn.user);
+  escribirUsuario(usuario) {
+    cy.xpath(this.userInput).type(usuario);
   }
 
-  escribirContraseña(data) {
-    cy.xpath(this.passInput).type(data.logIn.password);
+  escribirContraseña(contraseña) {
+    cy.xpath(this.passInput).type(contraseña);
   }
 
   clickLogIn() {
