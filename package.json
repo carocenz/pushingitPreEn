@@ -1,0 +1,19 @@
+{
+  "name": "pre-entrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pre-entrega.js",
+  "scripts": {
+    "cypress:open" : "npm test",
+    "test": "npx cypress open --e2e -b chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.3.0"
+  },
+  "dependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
